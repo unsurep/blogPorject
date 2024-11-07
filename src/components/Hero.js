@@ -1,6 +1,7 @@
 'use client'
 
 import React from "react"
+import Image from "next/image";
 
 const Hero=()=>{
     return (
@@ -12,7 +13,7 @@ const Hero=()=>{
                     {/* blog post 1 */}
                     <div className="mb-5">
                         <div>
-                            <img src="/images/b1.jpg" alt="blog_post_1" width={900} height={900} className="rounded-lg" />
+                            <Image src="/images/b1.jpg" alt="blog_post_1" width={900} height={900} className="rounded-lg" />
                         </div>
                         
                         <div className="px-[5rem]">
@@ -31,7 +32,7 @@ const Hero=()=>{
                     {/* blog post 2 */}
                     <div className="my-5">
                         <div>
-                            <img src="/images/b2.jpg" alt="blog_post_1" width={900} height={900} className="rounded-lg" />
+                            <Image src="/images/b2.jpg" alt="blog_post_1" width={900} height={900} className="rounded-lg" />
                         </div>
                         
                         <div className="px-[5rem]">

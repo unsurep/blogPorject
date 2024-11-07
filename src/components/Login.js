@@ -124,7 +124,7 @@ const Login=()=>{
 
 
                 <div className="mt-[5rem]">
-                    <img src="/images/webite.webp" width={700} height={700} alt="image" className=""/>
+                    <Image src="/images/webite.webp" width={700} height={700} alt="image" className=""/>
                 </div>
             </div>
             
