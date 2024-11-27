@@ -5,6 +5,7 @@ import Link from "next/link";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import { IoHome } from "react-icons/io5";
+import Image from "next/image";
 
 
 const Login=()=>{

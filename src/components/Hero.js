@@ -52,7 +52,7 @@ const Hero=()=>{
                     {/* blog post 3 */}
                     <div className="my-5">
                         <div>
-                            <img src="/images/b3.jpg" alt="blog_post_1" width={900} height={900} className="rounded-lg" />
+                            <Image src="/images/b3.jpg" alt="blog_post_1" width={900} height={900} className="rounded-lg" />
                         </div>
                         
                         <div className="px-[5rem]">
