@@ -58,10 +58,10 @@ const Register=()=>{
             setLoading(true)
 
          try {
-            //  const res = await axios.post ('http://localhost:3000/api/register', {firstName, lastName, email, gender, password})
+             const res = await axios.post ('http://localhost:3000/api/register', {firstName, lastName, email, gender, password})
 
             // api
-            const res = await axios.post (`${process.env.NEXT_PUBLIC_ENDPOINT}/api/register/`, {firstName, lastName, email, gender, password});
+            // const res = await axios.post (`${process.env.NEXT_PUBLIC_ENDPOINT}/api/register/`, {firstName, lastName, email, gender, password});
 
 
              console.log(res)

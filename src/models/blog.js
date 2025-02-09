@@ -38,7 +38,7 @@ blogSchema= new mongoose.Schema({
 
 
 
-}, {timestamps}) 
+}, {timestamps:true}) ;
 // time stamps help check the time
 
 const blogModel=mongoose.models.blog || mongoose.model('blog', blogSchema)

@@ -6,7 +6,7 @@ import Image from "next/image";
 const Hero=()=>{
     return (
         <>
-            <main className="px-[15rem]">
+            <main className="md:px-[15rem] pt-12">
                 <h1 className="flex gap-2 items-center py-10 text-4xl font-bold">Writing <span className="bg-orange-500 p-1 rounded-full"></span></h1>
 
                 <div>
